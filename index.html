@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MORNING. — Specialty Coffee &amp; Brunch in Tbilisi</title>
+  <meta name="description" content="MORNING. is a specialty coffee shop and brunch café in Vake, Tbilisi. Freshly brewed coffee, thoughtfully prepared dishes and pastries baked every morning.">
+  <meta name="theme-color" content="#F6F0E6">
+  <meta name="color-scheme" content="light">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MORNING.">
+  <meta property="og:title" content="MORNING. — Specialty Coffee &amp; Brunch in Tbilisi">
+  <meta property="og:description" content="Freshly brewed coffee, thoughtfully prepared dishes, and moments worth slowing down for.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1200&h=630&q=75">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ka_GE">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts: Fraunces + DM Sans (Latin), Noto Serif/Sans Georgian (Georgian) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Noto+Sans+Georgian:wght@400;500;600&family=Noto+Serif+Georgian:wght@300;400;500&display=swap">
+
+  <link rel="preload" as="image"
+    imagesrcset="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=640&q=72 640w, https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1000&q=72 1000w, https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1600&q=72 1600w"
+    imagesizes="(min-width: 900px) 55vw, 100vw" fetchpriority="high">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+  <!-- partial:header -->
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header is-top" id="header">
+    <div class="header__inner container">
+      <a class="logo" href="#home" data-i18n-attr="aria-label:a11y.home" aria-label="MORNING. — back to top">MORNING<span>.</span></a>
+
+      <nav class="nav" data-i18n-attr="aria-label:a11y.mainNav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#home" aria-current="page" data-i18n="nav.home">Home</a></li>
+          <li><a class="nav__link" href="menu/" data-i18n="nav.menu">Menu</a></li>
+          <li><a class="nav__link" href="our-coffee/" data-i18n="nav.coffee">Our Coffee</a></li>
+          <li><a class="nav__link" href="our-story/" data-i18n="nav.story">Our Story</a></li>
+          <li><a class="nav__link" href="gallery/" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a class="nav__link" href="whats-new/" data-i18n="nav.news">What's New</a></li>
+          <li><a class="nav__link" href="contact/" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <div class="lang lang--desktop" role="group" data-i18n-attr="aria-label:a11y.langGroup" aria-label="Language">
+          <button class="lang__btn" type="button" data-lang="ka" aria-pressed="false">GE</button>
+          <span class="lang__sep" aria-hidden="true">/</span>
+          <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+        </div>
+
+        <a class="btn btn--dark btn--sm header__cta" data-tel href="tel:+995555000000">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span data-i18n="nav.reserveShort">Reserve</span>
+        </a>
+
+        <button class="icon-btn lang-toggle" type="button" data-lang-toggle data-i18n-attr="aria-label:a11y.switchLang" aria-label="Switch language to Georgian">GE</button>
+        <a class="icon-btn header__call" data-tel href="tel:+995555000000" data-i18n-attr="aria-label:a11y.call" aria-label="Call MORNING.">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+        </a>
+        <button class="icon-btn burger" type="button" aria-expanded="false" aria-controls="mobile-menu" data-i18n-attr="aria-label:a11y.openMenu" aria-label="Open menu">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu__inner container">
+      <nav data-i18n-attr="aria-label:a11y.mainNav" aria-label="Main navigation">
+        <ol class="mobile-menu__list">
+          <li><a href="#home" aria-current="page"><span class="mobile-menu__num">01</span><span data-i18n="nav.home">Home</span></a></li>
+          <li><a href="menu/"><span class="mobile-menu__num">02</span><span data-i18n="nav.menu">Menu</span></a></li>
+          <li><a href="our-coffee/"><span class="mobile-menu__num">03</span><span data-i18n="nav.coffee">Our Coffee</span></a></li>
+          <li><a href="our-story/"><span class="mobile-menu__num">04</span><span data-i18n="nav.story">Our Story</span></a></li>
+          <li><a href="gallery/"><span class="mobile-menu__num">05</span><span data-i18n="nav.gallery">Gallery</span></a></li>
+          <li><a href="whats-new/"><span class="mobile-menu__num">06</span><span data-i18n="nav.news">What's New</span></a></li>
+          <li><a href="contact/"><span class="mobile-menu__num">07</span><span data-i18n="nav.contact">Contact</span></a></li>
+        </ol>
+      </nav>
+
+      <div class="mobile-menu__footer">
+        <a class="btn btn--dark btn--block" data-tel href="tel:+995555000000">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span data-i18n="nav.reserve">Call to Reserve</span>
+        </a>
+        <div class="mobile-menu__meta">
+          <p><span data-i18n="hero.meta1">Open daily from 08:00</span><br><span data-config="address">00 Sample Street, Vake, Tbilisi 0179</span></p>
+          <div class="lang" role="group" data-i18n-attr="aria-label:a11y.langGroup" aria-label="Language">
+            <button class="lang__btn" type="button" data-lang="ka" aria-pressed="false">GE</button>
+            <span class="lang__sep" aria-hidden="true">/</span>
+            <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /partial:header -->
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__media">
+        <div class="hero__frame">
+          <img class="hero__img" data-parallax="0.12"
+            src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1000&q=72"
+            srcset="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=640&q=72 640w, https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1000&q=72 1000w, https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1600&q=72 1600w"
+            sizes="(min-width: 900px) 55vw, 100vw" width="1600" height="1067"
+            fetchpriority="high" decoding="async"
+            alt="A barista pouring steamed milk into a cappuccino" data-i18n-attr="alt:hero.alt">
+        </div>
+
+        <figure class="hero__inset" aria-hidden="false">
+          <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=520&h=640&q=72"
+            srcset="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=260&h=320&q=72 260w, https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=520&h=640&q=72 520w"
+            sizes="16vw" width="520" height="640" loading="lazy" decoding="async"
+            alt="Brioche French toast with banana and blueberries" data-i18n-attr="alt:hero.altSmall">
+        </figure>
+
+        <svg class="hero__badge" viewBox="0 0 160 160" aria-hidden="true">
+          <defs><path id="badge-circle" d="M80,80 m-62,0 a62,62 0 1,1 124,0 a62,62 0 1,1 -124,0"/></defs>
+          <g class="hero__badge-ring">
+            <text><textPath href="#badge-circle" textLength="386" lengthAdjust="spacing" data-i18n="hero.badge">Specialty coffee · Brunch all day · Est. 2026 · </textPath></text>
+          </g>
+          <use href="#i-bean" x="64" y="64" width="32" height="32"/>
+        </svg>
+      </div>
+
+      <div class="hero__content container">
+        <div class="hero__text">
+          <p class="eyebrow hero__eyebrow anim-in" style="--d: 0.15s" data-i18n="hero.eyebrow">Specialty coffee &amp; brunch · Tbilisi</p>
+          <h1 class="hero__title anim-in" style="--d: 0.3s" data-i18n-html="hero.title">Your Morning,<br><em>Made Special.</em></h1>
+          <p class="hero__lead anim-in" style="--d: 0.5s" data-i18n="hero.text">Freshly brewed coffee, thoughtfully prepared dishes, and moments worth slowing down for.</p>
+          <div class="hero__ctas anim-in" style="--d: 0.65s">
+            <a class="btn btn--primary" href="#menu">
+              <span data-i18n="hero.ctaMenu">Explore Our Menu</span>
+              <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="btn btn--outline" data-tel href="tel:+995555000000">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+              <span data-i18n="hero.ctaReserve">Call to Reserve</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__meta anim-in" style="--d: 0.85s">
+          <span><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span data-i18n="hero.meta1">Open daily from 08:00</span></span>
+          <span><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="hero.meta2">Vake, Tbilisi</span></span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============ OUR STORY ============ -->
+    <section class="section story" id="story">
+      <div class="container story__grid">
+        <div class="story__media">
+          <figure class="story__main reveal-img">
+            <img data-parallax="-0.06"
+              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&h=1125&q=72"
+              srcset="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=600&h=750&q=72 600w, https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&h=1125&q=72 900w, https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&h=1500&q=72 1200w"
+              sizes="(min-width: 900px) 40vw, 90vw" width="900" height="1125" loading="lazy" decoding="async"
+              alt="Sunlit café interior with wooden tables and a coffee bar" data-i18n-attr="alt:story.alt1">
+            <figcaption class="story__caption" data-i18n="story.caption">The coffee bar, Vake</figcaption>
+          </figure>
+          <figure class="story__small reveal-img" style="--d: 0.2s">
+            <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=600&h=720&q=72"
+              srcset="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=360&h=432&q=72 360w, https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=600&h=720&q=72 600w"
+              sizes="(min-width: 900px) 18vw, 45vw" width="600" height="720" loading="lazy" decoding="async"
+              alt="Espresso shots and cappuccinos served on a wooden board" data-i18n-attr="alt:story.alt2">
+          </figure>
+          <p class="story__side" aria-hidden="true" data-i18n="story.side">Est. 2026 — Tbilisi</p>
+        </div>
+
+        <div class="story__content">
+          <p class="eyebrow reveal"><span class="eyebrow__num">01</span><span data-i18n="story.eyebrow">Our Story</span></p>
+          <h2 class="section-title reveal" data-i18n-html="story.title">A small café with a <em>slow</em> philosophy.</h2>
+          <div class="story__copy">
+            <p class="reveal" data-i18n="story.p1">MORNING. began with a simple idea: the first hours of the day deserve care. We roast in small batches, bake before sunrise, and cook with produce from farms just outside Tbilisi.</p>
+            <p class="reveal" data-i18n="story.p2">Whether it's a quick espresso on the way to work or a long Sunday brunch with friends, we want every visit to feel like the best part of your day.</p>
+            <p class="story__sign reveal" data-i18n="story.sign">— The MORNING. team</p>
+          </div>
+
+          <dl class="stats">
+            <div class="stats__item reveal">
+              <dt class="stats__num">100%</dt>
+              <dd data-i18n="story.stat1">specialty-grade beans, roasted weekly</dd>
+            </div>
+            <div class="stats__item reveal" style="--d: 0.1s">
+              <dt class="stats__num">05:30</dt>
+              <dd data-i18n="story.stat2">our bakers start the day</dd>
+            </div>
+            <div class="stats__item reveal" style="--d: 0.2s">
+              <dt class="stats__num">12</dt>
+              <dd data-i18n="story.stat3">local farms we cook with</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__group">
+          <span data-i18n="marquee.1">Specialty Coffee</span><svg class="marquee__bean"><use href="#i-bean"/></svg>
+          <span data-i18n="marquee.2">Brunch All Day</span><svg class="marquee__bean"><use href="#i-bean"/></svg>
+          <span data-i18n="marquee.3">Baked Every Morning</span><svg class="marquee__bean"><use href="#i-bean"/></svg>
+          <span data-i18n="marquee.4">Vake, Tbilisi</span><svg class="marquee__bean"><use href="#i-bean"/></svg>
+        </div>
+        <div class="marquee__group">
+          <span data-i18n="marquee.1">Specialty Coffee</span><svg class="marquee__bean"><use href="#i-bean"/></svg>
+          <span data-i18n="marquee.2">Brunch All Day</span><svg class="marquee__bean"><use href="#i-bean"/></svg>
+          <span data-i18n="marquee.3">Baked Every Morning</span><svg class="marquee__bean"><use href="#i-bean"/></svg>
+          <span data-i18n="marquee.4">Vake, Tbilisi</span><svg class="marquee__bean"><use href="#i-bean"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ MENU ============ -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <header class="section-head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow__num">02</span><span data-i18n="menu.eyebrow">Signature Menu</span></p>
+            <h2 class="section-title reveal" data-i18n-html="menu.title">Made fresh, <em>every morning.</em></h2>
+          </div>
+          <p class="section-head__intro reveal" data-i18n="menu.intro">A short, seasonal menu built around great coffee and honest ingredients.</p>
+        </header>
+
+        <div class="menu__tabs-wrap reveal">
+          <div class="menu__tabs" role="tablist" data-i18n-attr="aria-label:a11y.menuCategories" aria-label="Menu categories">
+            <button class="menu__tab" role="tab" type="button" id="tab-coffee" data-cat="coffee" aria-selected="true" aria-controls="menu-panel"><span data-i18n="menu.cat.coffee">Coffee</span><sup class="menu__count"></sup></button>
+            <button class="menu__tab" role="tab" type="button" id="tab-breakfast" data-cat="breakfast" aria-selected="false" aria-controls="menu-panel" tabindex="-1"><span data-i18n="menu.cat.breakfast">Breakfast</span><sup class="menu__count"></sup></button>
+            <button class="menu__tab" role="tab" type="button" id="tab-brunch" data-cat="brunch" aria-selected="false" aria-controls="menu-panel" tabindex="-1"><span data-i18n="menu.cat.brunch">Brunch</span><sup class="menu__count"></sup></button>
+            <button class="menu__tab" role="tab" type="button" id="tab-desserts" data-cat="desserts" aria-selected="false" aria-controls="menu-panel" tabindex="-1"><span data-i18n="menu.cat.desserts">Desserts</span><sup class="menu__count"></sup></button>
+            <button class="menu__tab" role="tab" type="button" id="tab-drinks" data-cat="drinks" aria-selected="false" aria-controls="menu-panel" tabindex="-1"><span data-i18n="menu.cat.drinks">Drinks</span><sup class="menu__count"></sup></button>
+          </div>
+        </div>
+
+        <div class="menu__panel" id="menu-panel" role="tabpanel" aria-labelledby="tab-coffee" tabindex="0">
+          <figure class="menu__feature">
+            <img class="menu__feature-img" src="https://images.unsplash.com/photo-1495774856032-8b90bbb32b32?auto=format&fit=crop&w=800&h=1000&q=72" width="800" height="1000" loading="lazy" decoding="async" alt="">
+            <figcaption class="menu__feature-cap">
+              <span class="menu__feature-title" data-menu-title>Coffee</span>
+              <span class="menu__feature-lead" data-menu-lead>Seasonal single origins, roasted in small batches and pulled with care.</span>
+            </figcaption>
+          </figure>
+          <div class="menu__body">
+            <p class="menu__lead" data-menu-lead>Seasonal single origins, roasted in small batches and pulled with care.</p>
+            <ul class="menu__list" data-menu-list></ul>
+            <p class="menu__note" data-i18n="menu.note">Prices in Georgian Lari (₾). Please let us know about any allergies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <header class="section-head section-head--light">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow__num">03</span><span data-i18n="exp.eyebrow">The MORNING. Experience</span></p>
+            <h2 class="section-title reveal" data-i18n-html="exp.title">Small details, <em>made with care.</em></h2>
+          </div>
+          <p class="section-head__intro reveal" data-i18n="exp.intro">Four things we never compromise on — so you can simply sit back and enjoy.</p>
+        </header>
+      </div>
+
+      <ol class="experience__list" data-i18n-attr="aria-label:a11y.carousel" aria-label="The MORNING. experience">
+        <li class="exp-card reveal">
+          <figure class="exp-card__img">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=640&h=800&q=72"
+              srcset="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&h=500&q=72 400w, https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=640&h=800&q=72 640w"
+              sizes="(min-width: 900px) 24vw, 78vw" width="640" height="800" loading="lazy" decoding="async"
+              alt="Espresso portafilters with freshly ground coffee" data-i18n-attr="alt:exp.1.alt">
+          </figure>
+          <span class="exp-card__num">01</span>
+          <h3 class="exp-card__title" data-i18n="exp.1.title">Specialty Coffee</h3>
+          <p class="exp-card__text" data-i18n="exp.1.text">Traceable beans from Ethiopia, Colombia and Rwanda, roasted weekly and dialled in every morning.</p>
+        </li>
+        <li class="exp-card reveal" style="--d: 0.1s">
+          <figure class="exp-card__img">
+            <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=640&h=800&q=72"
+              srcset="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=400&h=500&q=72 400w, https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=640&h=800&q=72 640w"
+              sizes="(min-width: 900px) 24vw, 78vw" width="640" height="800" loading="lazy" decoding="async"
+              alt="A table spread with fresh brunch dishes" data-i18n-attr="alt:exp.2.alt">
+          </figure>
+          <span class="exp-card__num">02</span>
+          <h3 class="exp-card__title" data-i18n="exp.2.title">Fresh Ingredients</h3>
+          <p class="exp-card__text" data-i18n="exp.2.text">Eggs, herbs and dairy from small Georgian farms, delivered at dawn.</p>
+        </li>
+        <li class="exp-card reveal" style="--d: 0.2s">
+          <figure class="exp-card__img">
+            <img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=640&h=800&q=72"
+              srcset="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=400&h=500&q=72 400w, https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=640&h=800&q=72 640w"
+              sizes="(min-width: 900px) 24vw, 78vw" width="640" height="800" loading="lazy" decoding="async"
+              alt="Golden croissants fresh from the oven" data-i18n-attr="alt:exp.3.alt">
+          </figure>
+          <span class="exp-card__num">03</span>
+          <h3 class="exp-card__title" data-i18n="exp.3.title">Handmade Desserts</h3>
+          <p class="exp-card__text" data-i18n="exp.3.text">Croissants, cakes and buns baked by hand before the doors open.</p>
+        </li>
+        <li class="exp-card reveal" style="--d: 0.3s">
+          <figure class="exp-card__img">
+            <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=640&h=800&q=72"
+              srcset="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=400&h=500&q=72 400w, https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=640&h=800&q=72 640w"
+              sizes="(min-width: 900px) 24vw, 78vw" width="640" height="800" loading="lazy" decoding="async"
+              alt="A cozy café table by a sunny window" data-i18n-attr="alt:exp.4.alt">
+          </figure>
+          <span class="exp-card__num">04</span>
+          <h3 class="exp-card__title" data-i18n="exp.4.title">Cozy Atmosphere</h3>
+          <p class="exp-card__text" data-i18n="exp.4.text">Sunlit tables, soft music and no rush — stay as long as you like.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <header class="section-head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow__num">04</span><span data-i18n="gallery.eyebrow">Gallery</span></p>
+            <h2 class="section-title reveal" data-i18n-html="gallery.title">Moments worth <em>slowing down for.</em></h2>
+          </div>
+          <p class="section-head__intro reveal" data-i18n="gallery.intro">A glimpse of our space, our plates and the people who make them.</p>
+        </header>
+
+        <ul class="gallery__grid">
+          <li class="g-item g-item--big reveal-img"><button class="g-btn" type="button" data-photo="1554118811-1e0d58224f24"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&h=900&q=72" srcset="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&h=600&q=72 600w, https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&h=900&q=72 900w" sizes="(min-width: 900px) 46vw, 92vw" width="900" height="900" loading="lazy" decoding="async" alt="The café interior in the afternoon light" data-i18n-attr="alt:gallery.1"></button></li>
+          <li class="g-item g-item--tall reveal-img" style="--d: 0.1s"><button class="g-btn" type="button" data-photo="1514066558159-fc8c737ef259"><img src="https://images.unsplash.com/photo-1514066558159-fc8c737ef259?auto=format&fit=crop&w=600&h=900&q=72" srcset="https://images.unsplash.com/photo-1514066558159-fc8c737ef259?auto=format&fit=crop&w=400&h=600&q=72 400w, https://images.unsplash.com/photo-1514066558159-fc8c737ef259?auto=format&fit=crop&w=600&h=900&q=72 600w" sizes="(min-width: 900px) 23vw, 46vw" width="600" height="900" loading="lazy" decoding="async" alt="Latte art being poured at the bar" data-i18n-attr="alt:gallery.2"></button></li>
+          <li class="g-item reveal-img" style="--d: 0.2s"><button class="g-btn" type="button" data-photo="1525610553991-2bede1a236e2"><img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=600&h=600&q=72" srcset="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=400&h=400&q=72 400w, https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=600&h=600&q=72 600w" sizes="(min-width: 900px) 23vw, 46vw" width="600" height="600" loading="lazy" decoding="async" alt="A busy morning at the café" data-i18n-attr="alt:gallery.3"></button></li>
+          <li class="g-item reveal-img" style="--d: 0.3s"><button class="g-btn" type="button" data-photo="1464305795204-6f5bbfc7fb81"><img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=600&h=600&q=72" srcset="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=400&h=400&q=72 400w, https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=600&h=600&q=72 600w" sizes="(min-width: 900px) 23vw, 46vw" width="600" height="600" loading="lazy" decoding="async" alt="Freshly baked berry pies" data-i18n-attr="alt:gallery.4"></button></li>
+          <li class="g-item g-item--wide reveal-img"><button class="g-btn" type="button" data-photo="1509042239860-f550ce710b93"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&h=500&q=72" srcset="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&h=350&q=72 700w, https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&h=500&q=72 1000w" sizes="(min-width: 900px) 46vw, 92vw" width="1000" height="500" loading="lazy" decoding="async" alt="Three flat whites among green plants" data-i18n-attr="alt:gallery.5"></button></li>
+          <li class="g-item g-item--tall reveal-img" style="--d: 0.1s"><button class="g-btn" type="button" data-photo="1559925393-8be0ec4767c8"><img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=600&h=900&q=72" srcset="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=400&h=600&q=72 400w, https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=600&h=900&q=72 600w" sizes="(min-width: 900px) 23vw, 46vw" width="600" height="900" loading="lazy" decoding="async" alt="Outdoor terrace tables on a quiet street" data-i18n-attr="alt:gallery.6"></button></li>
+          <li class="g-item reveal-img" style="--d: 0.2s"><button class="g-btn" type="button" data-photo="1504754524776-8f4f37790ca0"><img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=600&h=600&q=72" srcset="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=400&h=400&q=72 400w, https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=600&h=600&q=72 600w" sizes="(min-width: 900px) 23vw, 46vw" width="600" height="600" loading="lazy" decoding="async" alt="A brunch table with waffles, eggs and fresh juice" data-i18n-attr="alt:gallery.7"></button></li>
+          <li class="g-item g-item--wide reveal-img"><button class="g-btn" type="button" data-photo="1495474472287-4d71bcdd2085"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&h=500&q=72" srcset="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&h=350&q=72 700w, https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&h=500&q=72 1000w" sizes="(min-width: 900px) 46vw, 92vw" width="1000" height="500" loading="lazy" decoding="async" alt="Friends sharing cappuccinos" data-i18n-attr="alt:gallery.8"></button></li>
+          <li class="g-item reveal-img" style="--d: 0.1s"><button class="g-btn" type="button" data-photo="1453614512568-c4024d13c247"><img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=600&h=600&q=72" srcset="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=400&h=400&q=72 400w, https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=600&h=600&q=72 600w" sizes="(min-width: 900px) 23vw, 46vw" width="600" height="600" loading="lazy" decoding="async" alt="The coffee bar with hanging lights" data-i18n-attr="alt:gallery.9"></button></li>
+        </ul>
+
+        <div class="gallery__foot reveal">
+          <a class="link-arrow" data-config-href="instagramUrl" href="https://www.instagram.com/" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>
+            <span data-i18n="gallery.follow">Follow us on Instagram</span>
+            <span class="link-arrow__handle" data-config="instagramHandle">@morning.cafe</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESERVE (CALL) ============ -->
+    <section class="section reserve" id="reserve">
+      <div class="container reserve__grid">
+        <figure class="reserve__media reveal-img">
+          <img data-parallax="-0.05"
+            src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&w=1000&h=1100&q=72"
+            srcset="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&w=640&h=700&q=72 640w, https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&w=1000&h=1100&q=72 1000w"
+            sizes="(min-width: 900px) 46vw, 100vw" width="1000" height="1100" loading="lazy" decoding="async"
+            alt="A quiet café table set by a bright window" data-i18n-attr="alt:reserve.alt">
+        </figure>
+
+        <div class="reserve__content">
+          <p class="eyebrow reveal"><span class="eyebrow__num">05</span><span data-i18n="reserve.eyebrow">Reservations</span></p>
+          <h2 class="section-title reveal" data-i18n-html="reserve.title">Save a table <em>for your morning.</em></h2>
+          <p class="reserve__text reveal" data-i18n="reserve.text">We take reservations by phone — just give us a call and we'll have your table ready. Walk-ins are always welcome.</p>
+
+          <a class="reserve__phone reveal" data-tel href="tel:+995555000000" data-config="phoneDisplay">+995 555 00 00 00</a>
+
+          <div class="reserve__actions reveal">
+            <a class="btn btn--dark btn--lg" data-tel href="tel:+995555000000">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+              <span data-i18n="reserve.cta">Call to Reserve</span>
+            </a>
+            <p class="reserve__line">
+              <span class="reserve__line-label" data-i18n="reserve.lineLabel">Reservation line</span>
+              <span data-i18n="reserve.lineHours">Daily, 08:00 – 21:00</span>
+            </p>
+          </div>
+          <p class="reserve__groups reveal" data-i18n="reserve.groups">Groups of 8 or more — please call a day ahead.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <header class="section-head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow__num">06</span><span data-i18n="contact.eyebrow">Visit Us</span></p>
+            <h2 class="section-title reveal" data-i18n-html="contact.title">Find your table <em>in Vake.</em></h2>
+          </div>
+          <p class="demo-note reveal" data-demo-note>
+            <svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
+            <span data-i18n="contact.demo">Sample contact details for demonstration</span>
+          </p>
+        </header>
+
+        <div class="contact__grid">
+          <div class="contact__info">
+            <div class="contact__block reveal">
+              <h3 class="contact__label" data-i18n="contact.address">Address</h3>
+              <p class="contact__value" data-config="address">00 Sample Street, Vake, Tbilisi 0179</p>
+              <a class="link-arrow" data-maps-link href="https://www.google.com/maps/search/?api=1&amp;query=Vake%20Park%2C%20Tbilisi%2C%20Georgia" target="_blank" rel="noopener">
+                <span data-i18n="contact.directions">Get Directions</span>
+                <svg class="icon icon--arrow" aria-hidden="true"><use href="#i-arrow-up"/></svg>
+              </a>
+            </div>
+
+            <div class="contact__block reveal">
+              <h3 class="contact__label">
+                <span data-i18n="contact.hours">Opening Hours</span>
+                <span class="status" data-status hidden><span class="status__dot"></span><span data-status-text></span></span>
+              </h3>
+              <dl class="hours">
+                <div class="hours__row" data-hours="weekdays"><dt data-i18n="contact.weekdays">Monday – Friday</dt><dd>08:00 – 21:00</dd></div>
+                <div class="hours__row" data-hours="weekend"><dt data-i18n="contact.weekend">Saturday – Sunday</dt><dd>09:00 – 22:00</dd></div>
+              </dl>
+            </div>
+
+            <div class="contact__block contact__block--split reveal">
+              <div>
+                <h3 class="contact__label" data-i18n="contact.phone">Phone</h3>
+                <a class="contact__value contact__link" data-tel href="tel:+995555000000" data-config="phoneDisplay">+995 555 00 00 00</a>
+              </div>
+              <div>
+                <h3 class="contact__label" data-i18n="contact.instagram">Instagram</h3>
+                <a class="contact__value contact__link" data-config-href="instagramUrl" href="https://www.instagram.com/" target="_blank" rel="noopener" data-config="instagramHandle">@morning.cafe</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__map reveal-img">
+            <iframe data-map title="Map showing the location of MORNING. in Tbilisi" data-i18n-attr="title:a11y.map"
+              src="https://www.google.com/maps?q=Vake%20Park%2C%20Tbilisi%2C%20Georgia&amp;output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- partial:footer -->
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="logo logo--light" href="#home" data-i18n-attr="aria-label:a11y.home" aria-label="MORNING. — back to top">MORNING<span>.</span></a>
+          <p data-i18n="footer.tagline">Specialty coffee &amp; brunch in the heart of Tbilisi.</p>
+          <a class="btn btn--light btn--sm" data-tel href="tel:+995555000000">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            <span data-i18n="nav.reserve">Call to Reserve</span>
+          </a>
+        </div>
+
+        <nav class="footer__col footer__col--explore" data-i18n-attr="aria-label:footer.explore" aria-label="Explore">
+          <h2 class="footer__title" data-i18n="footer.explore">Explore</h2>
+          <ul>
+            <li><a href="#home" aria-current="page" data-i18n="nav.home">Home</a></li>
+            <li><a href="menu/" data-i18n="nav.menu">Menu</a></li>
+            <li><a href="our-coffee/" data-i18n="nav.coffee">Our Coffee</a></li>
+            <li><a href="our-story/" data-i18n="nav.story">Our Story</a></li>
+            <li><a href="gallery/" data-i18n="nav.gallery">Gallery</a></li>
+            <li><a href="whats-new/" data-i18n="nav.news">What's New</a></li>
+            <li><a href="contact/" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__col footer__col--visit">
+          <h2 class="footer__title" data-i18n="footer.visit">Visit</h2>
+          <ul>
+            <li data-config="address">00 Sample Street, Vake, Tbilisi 0179</li>
+            <li><span data-i18n="contact.weekdays">Monday – Friday</span> · <span data-hours-text="weekdays">08:00 – 21:00</span></li>
+            <li><span data-i18n="contact.weekend">Saturday – Sunday</span> · <span data-hours-text="weekend">09:00 – 22:00</span></li>
+            <li><a data-tel href="tel:+995555000000" data-config="phoneDisplay">+995 555 00 00 00</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__col--follow">
+          <h2 class="footer__title" data-i18n="footer.follow">Follow</h2>
+          <ul class="footer__social">
+            <li><a data-config-href="instagramUrl" href="https://www.instagram.com/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>Instagram</a></li>
+            <li><a data-config-href="facebookUrl" href="https://www.facebook.com/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg>Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__word" aria-hidden="true">MORNING<span>.</span></p>
+
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> MORNING. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        <p data-i18n="footer.credit">Demo website by NeoWeb Studio</p>
+        <a class="footer__top-link" href="#home"><span data-i18n="footer.top">Back to top</span><svg class="icon" aria-hidden="true"><use href="#i-arrow-up-straight"/></svg></a>
+      </div>
+    </div>
+  </footer>
+  <!-- /partial:footer -->
+
+  <!-- partial:lightbox -->
+  <!-- ============ LIGHTBOX ============ -->
+  <dialog class="lightbox" id="lightbox">
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" alt="">
+      <figcaption class="lightbox__cap"><span class="lightbox__count"></span><span class="lightbox__text"></span></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__close" type="button" data-lb="close" data-i18n-attr="aria-label:a11y.close" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+    <button class="lightbox__btn lightbox__prev" type="button" data-lb="prev" data-i18n-attr="aria-label:a11y.prev" aria-label="Previous photo"><svg class="icon" aria-hidden="true"><use href="#i-chevron-left"/></svg></button>
+    <button class="lightbox__btn lightbox__next" type="button" data-lb="next" data-i18n-attr="aria-label:a11y.next" aria-label="Next photo"><svg class="icon" aria-hidden="true"><use href="#i-chevron-right"/></svg></button>
+  </dialog>
+  <!-- /partial:lightbox -->
+
+  <!-- partial:icons -->
+  <!-- ============ ICON SPRITE ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M5 4h3.2l1.6 4-2 1.3a10.5 10.5 0 0 0 6.9 6.9l1.3-2 4 1.6V19a1.6 1.6 0 0 1-1.7 1.6A15.5 15.5 0 0 1 3.4 5.7 1.6 1.6 0 0 1 5 4z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M4 12h15M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-arrow-up-straight" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M12 20V5M6 11l6-6 6 6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.3"/></g></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></g></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M14 8.5h2.5V5H14a3.5 3.5 0 0 0-3.5 3.5V11H8v3.5h2.5V21H14v-6.5h2.5L17 11h-3V9a.5.5 0 0 1 .5-.5z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-chevron-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></symbol>
+    <symbol id="i-chevron-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8v.01"/></g></symbol>
+    <symbol id="i-bean" viewBox="0 0 32 32"><ellipse cx="16" cy="16" rx="8" ry="12" transform="rotate(35 16 16)" fill="currentColor"/><path d="M10.8 24.2c3.4-3 1.6-6.4 5.2-8.3s1.8-5.4 5.2-8.3" fill="none" style="stroke: var(--bean-cut, #F6F0E6)" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15" rx="1.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></symbol>
+    <symbol id="i-cup" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h12v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9z"/><path d="M16 10.5h1.5a2.5 2.5 0 0 1 0 5H16M8 3.5c-.8 1 .8 2 0 3M12 3.5c-.8 1 .8 2 0 3"/></g></symbol>
+    <symbol id="i-walk" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="4.5" r="1.8"/><path d="M9.5 21l2.2-6.2L14 17v4M8 11.5l2.5-3.5 3 .5 2 3.5 2.5 1M11.7 14.8 13 9"/></g></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16.5V12l1.8-4.6A2 2 0 0 1 8.7 6h6.6a2 2 0 0 1 1.9 1.4L19 12v4.5"/><path d="M3.5 16.5h17M5 12h14"/><circle cx="7.5" cy="16.5" r="1.8"/><circle cx="16.5" cy="16.5" r="1.8"/></g></symbol>
+    <symbol id="i-access" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="1.8"/><path d="M5 8.5l7 1.5 7-1.5M12 10v4.5M12 14.5l-3 6M12 14.5l3 6"/></g></symbol>
+  </svg>
+  <!-- /partial:icons -->
+
+  <script src="js/config.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/i18n-pages.js"></script>
+  <script src="js/menu-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

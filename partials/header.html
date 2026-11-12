@@ -1,0 +1,74 @@
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header is-top" id="header">
+    <div class="header__inner container">
+      <a class="logo" href="{{homeHref}}" data-i18n-attr="aria-label:a11y.home" aria-label="MORNING. — back to top">MORNING<span>.</span></a>
+
+      <nav class="nav" data-i18n-attr="aria-label:a11y.mainNav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="{{homeHref}}"{{current:home}} data-i18n="nav.home">Home</a></li>
+          <li><a class="nav__link" href="{{base}}menu/"{{current:menu}} data-i18n="nav.menu">Menu</a></li>
+          <li><a class="nav__link" href="{{base}}our-coffee/"{{current:coffee}} data-i18n="nav.coffee">Our Coffee</a></li>
+          <li><a class="nav__link" href="{{base}}our-story/"{{current:story}} data-i18n="nav.story">Our Story</a></li>
+          <li><a class="nav__link" href="{{base}}gallery/"{{current:gallery}} data-i18n="nav.gallery">Gallery</a></li>
+          <li><a class="nav__link" href="{{base}}whats-new/"{{current:news}} data-i18n="nav.news">What's New</a></li>
+          <li><a class="nav__link" href="{{base}}contact/"{{current:contact}} data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <div class="lang lang--desktop" role="group" data-i18n-attr="aria-label:a11y.langGroup" aria-label="Language">
+          <button class="lang__btn" type="button" data-lang="ka" aria-pressed="false">GE</button>
+          <span class="lang__sep" aria-hidden="true">/</span>
+          <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+        </div>
+
+        <a class="btn btn--dark btn--sm header__cta" data-tel href="tel:+995555000000">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span data-i18n="nav.reserveShort">Reserve</span>
+        </a>
+
+        <button class="icon-btn lang-toggle" type="button" data-lang-toggle data-i18n-attr="aria-label:a11y.switchLang" aria-label="Switch language to Georgian">GE</button>
+        <a class="icon-btn header__call" data-tel href="tel:+995555000000" data-i18n-attr="aria-label:a11y.call" aria-label="Call MORNING.">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+        </a>
+        <button class="icon-btn burger" type="button" aria-expanded="false" aria-controls="mobile-menu" data-i18n-attr="aria-label:a11y.openMenu" aria-label="Open menu">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu__inner container">
+      <nav data-i18n-attr="aria-label:a11y.mainNav" aria-label="Main navigation">
+        <ol class="mobile-menu__list">
+          <li><a href="{{homeHref}}"{{current:home}}><span class="mobile-menu__num">01</span><span data-i18n="nav.home">Home</span></a></li>
+          <li><a href="{{base}}menu/"{{current:menu}}><span class="mobile-menu__num">02</span><span data-i18n="nav.menu">Menu</span></a></li>
+          <li><a href="{{base}}our-coffee/"{{current:coffee}}><span class="mobile-menu__num">03</span><span data-i18n="nav.coffee">Our Coffee</span></a></li>
+          <li><a href="{{base}}our-story/"{{current:story}}><span class="mobile-menu__num">04</span><span data-i18n="nav.story">Our Story</span></a></li>
+          <li><a href="{{base}}gallery/"{{current:gallery}}><span class="mobile-menu__num">05</span><span data-i18n="nav.gallery">Gallery</span></a></li>
+          <li><a href="{{base}}whats-new/"{{current:news}}><span class="mobile-menu__num">06</span><span data-i18n="nav.news">What's New</span></a></li>
+          <li><a href="{{base}}contact/"{{current:contact}}><span class="mobile-menu__num">07</span><span data-i18n="nav.contact">Contact</span></a></li>
+        </ol>
+      </nav>
+
+      <div class="mobile-menu__footer">
+        <a class="btn btn--dark btn--block" data-tel href="tel:+995555000000">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span data-i18n="nav.reserve">Call to Reserve</span>
+        </a>
+        <div class="mobile-menu__meta">
+          <p><span data-i18n="hero.meta1">Open daily from 08:00</span><br><span data-config="address">00 Sample Street, Vake, Tbilisi 0179</span></p>
+          <div class="lang" role="group" data-i18n-attr="aria-label:a11y.langGroup" aria-label="Language">
+            <button class="lang__btn" type="button" data-lang="ka" aria-pressed="false">GE</button>
+            <span class="lang__sep" aria-hidden="true">/</span>
+            <button class="lang__btn" type="button" data-lang="en" aria-pressed="true">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
